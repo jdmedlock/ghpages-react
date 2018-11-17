@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ghpages-react
+
+This application demonstrates and documents how to deploy an application
+generated using Facebook's [Create React App](https://github.com/facebook/create-react-app)
+to GitHub Pages.
 
 ## Available Scripts
 
