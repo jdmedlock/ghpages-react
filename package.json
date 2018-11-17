@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://jdmedlock.github.io/ghpages-react",
   "dependencies": {
+    "@material-ui/core": "^3.5.1",
     "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
