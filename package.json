@@ -2,8 +2,10 @@
   "name": "ghpages-react",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://jdmedlock.github.io/ghpages-react",
+  "homepage": "http://jdmedlock.github.io/ghpages-react",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -13,7 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "publish": "npm run build && npm run deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
