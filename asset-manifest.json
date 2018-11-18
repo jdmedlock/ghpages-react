@@ -1,7 +1,7 @@
 {
   "main.css": "/ghpages-react/static/css/main.9bee8e60.chunk.css",
-  "main.js": "/ghpages-react/static/js/main.c1628684.chunk.js",
-  "main.js.map": "/ghpages-react/static/js/main.c1628684.chunk.js.map",
+  "main.js": "/ghpages-react/static/js/main.b83e732d.chunk.js",
+  "main.js.map": "/ghpages-react/static/js/main.b83e732d.chunk.js.map",
   "static/js/1.9efb7550.chunk.js": "/ghpages-react/static/js/1.9efb7550.chunk.js",
   "static/js/1.9efb7550.chunk.js.map": "/ghpages-react/static/js/1.9efb7550.chunk.js.map",
   "runtime~main.js": "/ghpages-react/static/js/runtime~main.0a8f874f.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/ghpages-react/static/media/logo.5d5d9eef.svg",
   "static/css/main.9bee8e60.chunk.css.map": "/ghpages-react/static/css/main.9bee8e60.chunk.css.map",
   "index.html": "/ghpages-react/index.html",
-  "precache-manifest.d112cd38d7b4bd2c5fadfc41828bf10c.js": "/ghpages-react/precache-manifest.d112cd38d7b4bd2c5fadfc41828bf10c.js",
+  "precache-manifest.97d0e196cd0be20ff5f6a2ebbcf815a8.js": "/ghpages-react/precache-manifest.97d0e196cd0be20ff5f6a2ebbcf815a8.js",
   "service-worker.js": "/ghpages-react/service-worker.js"
 }
