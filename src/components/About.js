@@ -1,7 +1,5 @@
 import React from 'react';
 
-import TopBar from './TopBar';
-
 const About = (props) => {
 
   /**
@@ -11,7 +9,6 @@ const About = (props) => {
    */
   return (
     <div>
-      <TopBar />
       <h1>We are all about React</h1>
       <p>
         This where you'd normally find information about the app and team
