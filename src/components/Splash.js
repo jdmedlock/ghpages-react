@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TopBar from './TopBar';
 
 const Splash = (props) => {
 
@@ -11,7 +10,6 @@ const Splash = (props) => {
    */
   return (
     <div>
-      <TopBar />
       <h1>Welcome to React!</h1>
       <p>
         This is our awesome, although unadorned, app splash page. We'll make
@@ -23,7 +21,7 @@ const Splash = (props) => {
 }
 
 Splash.propTypes = {
-  logo: PropTypes.object.isRequired
+  logo: PropTypes.string.isRequired
 }
 
 export default Splash;

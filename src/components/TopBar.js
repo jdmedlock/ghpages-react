@@ -19,7 +19,6 @@ const styles = {
   },
 };
 
-
 const TopBar = (props) => {
   const { classes } = props;
   return (
