@@ -1,7 +1,7 @@
 {
   "main.css": "/ghpages-react/static/css/main.9bee8e60.chunk.css",
-  "main.js": "/ghpages-react/static/js/main.c938899b.chunk.js",
-  "main.js.map": "/ghpages-react/static/js/main.c938899b.chunk.js.map",
+  "main.js": "/ghpages-react/static/js/main.4394c227.chunk.js",
+  "main.js.map": "/ghpages-react/static/js/main.4394c227.chunk.js.map",
   "static/js/1.5ef4b315.chunk.js": "/ghpages-react/static/js/1.5ef4b315.chunk.js",
   "static/js/1.5ef4b315.chunk.js.map": "/ghpages-react/static/js/1.5ef4b315.chunk.js.map",
   "runtime~main.js": "/ghpages-react/static/js/runtime~main.0a8f874f.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/ghpages-react/static/media/logo.5d5d9eef.svg",
   "static/css/main.9bee8e60.chunk.css.map": "/ghpages-react/static/css/main.9bee8e60.chunk.css.map",
   "index.html": "/ghpages-react/index.html",
-  "precache-manifest.c52726c36eea7fd9af9e351303ea1bf7.js": "/ghpages-react/precache-manifest.c52726c36eea7fd9af9e351303ea1bf7.js",
+  "precache-manifest.1064c9858b8c27eeaa5e493fef6cc9be.js": "/ghpages-react/precache-manifest.1064c9858b8c27eeaa5e493fef6cc9be.js",
   "service-worker.js": "/ghpages-react/service-worker.js"
 }
