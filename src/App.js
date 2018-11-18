@@ -22,9 +22,9 @@ class App extends Component {
               </span>
             </nav>
             <Switch>
-              <Route exact={true} path="/" render={(props) => <Splash logo={logo} />} />
-              <Route path="/splash" render={(props) => <Splash logo={logo} />} />
-              <Route path="/about" component={About} />
+              <Route exact={true} path="/ghpages-react" render={(props) => <Splash routerProps={process.env.PUBLIC_URL} logo={logo} />} />
+              <Route path="/splash" render={(props) => <Splash routerProps={process.env.PUBLIC_URL} logo={logo} />} />
+              <Route path="/about" render={(props) => <About routerProps={process.env.PUBLIC_URL} logo={logo} /> } />
             </Switch>
           </div>
         </BrowserRouter>

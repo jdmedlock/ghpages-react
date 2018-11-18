@@ -13,6 +13,7 @@ const About = (props) => {
       <p>
         This where you'd normally find information about the app and team
       </p>
+      <img src={props.logo} className="App-logo" alt="logo" />
     </div>
   )
 }
