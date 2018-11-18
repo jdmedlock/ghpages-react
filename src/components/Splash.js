@@ -12,8 +12,8 @@ const Splash = (props) => {
     <div>
       <h1>Welcome to React!</h1>
       <p>
-        This is our awesome, although unadorned, app splash page. We'll make
-        this fancy at some point, but at this point it's merely a placeholder.
+        This is our awesome, although unadorned, app splash page. We will make
+        this fancy at some point, but at this point it is merely a placeholder.
       </p>
       <img src={props.logo} className="App-logo" alt="logo" />
     </div>
