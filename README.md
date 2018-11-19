@@ -5,7 +5,7 @@ generated using Facebook's [Create React App](https://github.com/facebook/create
 to GitHub Pages.
 
 If you are interested in learning more see the accompanying article on Medium.com
-["Seeking a Simple Path in a Complex Forest"](https://medium.com/p/4d7fb05e1147).
+["Seeking a Simple Path in a Complex Forest"](https://medium.com/chingu/seeking-a-simple-path-in-a-complex-forest-4d7fb05e1147).
 
 ## Available Scripts
 
