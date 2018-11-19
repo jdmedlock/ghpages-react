@@ -24,7 +24,7 @@ class App extends Component {
             <Switch>
               <Route exact={true} path={ process.env.PUBLIC_URL + "/" } render={ (props) => <Splash logo={logo} /> } />
               <Route exact={true} path={ process.env.PUBLIC_URL + "/splash" } render={ (props) => <Splash logo={logo} /> } />
-              <Route path={ process.env.PUBLIC_URL + "/about" } render={ (props) => <About logo={logo} /> } />
+              <Route exact={true} path={ process.env.PUBLIC_URL + "/about" } render={ (props) => <About logo={logo} /> } />
             </Switch>
           </div>
         </BrowserRouter>
