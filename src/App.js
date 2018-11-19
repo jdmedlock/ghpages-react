@@ -17,14 +17,14 @@ class App extends Component {
           <div>
             <nav>
               <span>
-                <Link className="App-link" to="/splash">Splash</Link>
-                <Link className="App-link" to="/about">About</Link>
+                <Link className="App-link" to={ process.env.PUBLIC_URL + "/splash" }>Splash</Link>
+                <Link className="App-link" to={ process.env.PUBLIC_URL + "/about" }>About</Link>
               </span>
             </nav>
             <Switch>
-              <Route exact={true} path="/ghpages-react" render={(props) => <Splash routerProps={process.env.PUBLIC_URL} logo={logo} />} />
-              <Route path="/splash" render={(props) => <Splash routerProps={process.env.PUBLIC_URL} logo={logo} />} />
-              <Route path="/about" render={(props) => <About routerProps={process.env.PUBLIC_URL} logo={logo} /> } />
+              <Route exact={true} path={ process.env.PUBLIC_URL + "/" } render={ (props) => <Splash logo={logo} /> } />
+              <Route exact={true} path={ process.env.PUBLIC_URL + "/splash" } render={ (props) => <Splash logo={logo} /> } />
+              <Route exact={true} path={ process.env.PUBLIC_URL + "/about" } render={ (props) => <About logo={logo} /> } />
             </Switch>
           </div>
         </BrowserRouter>
