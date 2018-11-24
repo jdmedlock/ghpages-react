@@ -13,18 +13,18 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <TopBar />
-          <BrowserRouter>
+          <BrowserRouter basename={ process.env.PUBLIC_URL }>
           <div>
             <nav>
               <span>
-                <Link className="App-link" to={ process.env.PUBLIC_URL + "/splash" }>Splash</Link>
-                <Link className="App-link" to={ process.env.PUBLIC_URL + "/about" }>About</Link>
+                <Link className="App-link" to={ "/splash" }>Splash</Link>
+                <Link className="App-link" to={ "/about" }>About</Link>
               </span>
             </nav>
             <Switch>
-              <Route exact={true} path={ process.env.PUBLIC_URL + "/" } render={ (props) => <Splash logo={logo} /> } />
-              <Route exact={true} path={ process.env.PUBLIC_URL + "/splash" } render={ (props) => <Splash logo={logo} /> } />
-              <Route exact={true} path={ process.env.PUBLIC_URL + "/about" } render={ (props) => <About logo={logo} /> } />
+              <Route exact={true} path={ "/" } render={ (props) => <Splash logo={logo} /> } />
+              <Route exact={true} path={ "/splash" } render={ (props) => <Splash logo={logo} /> } />
+              <Route exact={true} path={ "/about" } render={ (props) => <About logo={logo} /> } />
             </Switch>
           </div>
         </BrowserRouter>
